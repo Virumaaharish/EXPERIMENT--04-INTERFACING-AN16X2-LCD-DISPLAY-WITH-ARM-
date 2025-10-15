@@ -241,10 +241,10 @@ int main(void)
 void lcd_display(void)
 {
     Lcd_cursor(&lcd, 0, 1);
-    Lcd_string(&lcd, "ARULARASI U");
+    Lcd_string(&lcd, "VIRUMAA");
 
     Lcd_cursor(&lcd, 1, 1);
-    Lcd_string(&lcd, "212223100002");
+    Lcd_string(&lcd, "21223230246");
 }
 
 /**
@@ -341,9 +341,9 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 ## Output screen shots of proteus  :
 
- <img width="1919" height="1023" alt="Screenshot 2025-10-05 181237" src="https://github.com/user-attachments/assets/ee0e8390-e56e-408c-a369-1d2e75ffb9fd" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/117965b1-6903-428b-b0c9-4c04fcac7ab0" />
 
- <img width="790" height="692" alt="image" src="https://github.com/user-attachments/assets/93b42a62-3f63-4002-b414-cd8b8297ca0e" />
+<img width="776" height="680" alt="497551527-93b42a62-3f63-4002-b414-cd8b8297ca0e" src="https://github.com/user-attachments/assets/5e8952e8-13db-47e6-985b-df716055aa2f" />
 
 ## Result :
 Interfacing a lcd display with ARM microcontroller are simulated in proteus and the results are verified.
